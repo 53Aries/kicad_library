@@ -1,0 +1,219 @@
+(footprint "circuit_breaker"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a1eeb892-e63c-4aca-8f67-bf45a58c79da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "circuit_breaker"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6101738-01ee-457a-a233-1cd093ee4120")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0390f919-02ee-4f5a-991e-7d442e3abc50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b12a284-5d85-4c71-a716-913391c2a56a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -17.625 -7.25)
+		(end -17.625 7.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "1cf82ee9-b632-470a-b423-04b5df57a34a")
+	)
+	(fp_line
+		(start -17.625 -7.25)
+		(end 17.625 -7.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "56beb778-a732-4ee0-b204-241a86de5e86")
+	)
+	(fp_line
+		(start -17.625 7.25)
+		(end 17.625 7.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "269ccfcf-9ca4-4304-909a-b0cdd5a4d79e")
+	)
+	(fp_line
+		(start -13.775 -2.748684)
+		(end -13.775 -1.95)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "e0bdfbb8-6def-496a-a68b-bf47b940bee4")
+	)
+	(fp_line
+		(start -13.775 -2.748684)
+		(end -7.475 -2.748684)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "760a5d26-798a-45e3-b958-f6d226942bcb")
+	)
+	(fp_line
+		(start -13.775 -1.95)
+		(end -7.475 -1.95)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "c5b8d18e-498f-4164-9f00-9fb3aa3a5528")
+	)
+	(fp_line
+		(start -7.475 -2.748684)
+		(end -7.475 -1.95)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "4e77cb36-7947-4321-990c-e6fa68644e27")
+	)
+	(fp_line
+		(start 7.475 -2.748684)
+		(end 7.475 -1.951316)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "2f7a48a5-7125-4907-8834-90572a3d2544")
+	)
+	(fp_line
+		(start 7.475 -2.748684)
+		(end 13.775 -2.748684)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6d09ba87-a2e3-48fb-80af-95b22fd98b37")
+	)
+	(fp_line
+		(start 7.475 -1.951316)
+		(end 13.775 -1.951316)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "d0dcb5f5-4875-4351-84c1-42352b029198")
+	)
+	(fp_line
+		(start 13.775 -2.748684)
+		(end 13.775 -1.951316)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "d4e31e2c-6148-4713-a60b-4b2654f69755")
+	)
+	(fp_line
+		(start 17.625 -7.25)
+		(end 17.625 7.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "9ebd2ff7-8f58-4389-91ce-16a6b7f129dc")
+	)
+	(fp_rect
+		(start -18 -7.5)
+		(end 18 7.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "86520342-93f9-4771-957d-3e644b2b9e0f")
+	)
+	(pad "1" thru_hole roundrect
+		(at -10.625 -2.4)
+		(size 8 3)
+		(drill oval 7 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "8cbc0c84-ba6d-4fc3-a20a-43d6ecf67f7f")
+	)
+	(pad "2" thru_hole roundrect
+		(at 10.6 -2.4)
+		(size 8 3)
+		(drill oval 7 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "d256c08b-c095-4933-978e-e18216d200de")
+	)
+	(group ""
+		(uuid "5250f6ec-775c-4d8b-a089-96b83518caf0")
+		(members "1cf82ee9-b632-470a-b423-04b5df57a34a" "269ccfcf-9ca4-4304-909a-b0cdd5a4d79e"
+			"2f7a48a5-7125-4907-8834-90572a3d2544" "4e77cb36-7947-4321-990c-e6fa68644e27"
+			"56beb778-a732-4ee0-b204-241a86de5e86" "6d09ba87-a2e3-48fb-80af-95b22fd98b37"
+			"760a5d26-798a-45e3-b958-f6d226942bcb" "9ebd2ff7-8f58-4389-91ce-16a6b7f129dc"
+			"c5b8d18e-498f-4164-9f00-9fb3aa3a5528" "d0dcb5f5-4875-4351-84c1-42352b029198"
+			"d4e31e2c-6148-4713-a60b-4b2654f69755" "e0bdfbb8-6def-496a-a68b-bf47b940bee4"
+		)
+	)
+	(embedded_fonts no)
+)
