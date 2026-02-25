@@ -1,0 +1,9 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,Conn_01x06_Socket,JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical,174.25,-21.0,0.0,top
+J2,Conn_01x02_Socket,TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm,142.0,-22.0,180.0,top
+K1,40a_relay,40a Relay,132.0,-40.5625,0.0,top
+K2,40a_relay,40a Relay,132.5,-68.5625,0.0,top
+K3,40a_relay,40a Relay,161.0,-40.5625,0.0,top
+K4,40a_relay,40a Relay,161.0,-68.5625,0.0,top
+K5,40a_relay,40a Relay,190.0,-68.5625,0.0,top
+K6,40a_relay,40a Relay,190.0,-40.5625,0.0,top
